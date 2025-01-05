@@ -1,0 +1,9 @@
+# 训练集和验证集的路径
+train: D:/yolov11/datasets/fire/images/train
+val: D:/yolov11/datasets/fire/images/train  # 暂时用训练集代替验证集
+
+# number of classes
+nc: 1
+
+# class names
+names: ['fire']
