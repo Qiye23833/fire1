@@ -4,6 +4,6 @@ import os
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
 
 if __name__ == '__main__':
-    model = YOLO(model='./runs/train/exp10/weights/best.pt')
+    model = YOLO(model='./runs/train/exp19/weights/best.pt')
     model.val(data='./data.yaml', split='val', batch=1, device='0', project='run/val', name='exp',
               half=False, )
